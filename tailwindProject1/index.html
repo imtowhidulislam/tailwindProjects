@@ -14,7 +14,7 @@
   </head>
   <body class="m-0 p-0 box-border">
     <header class="bg-black w-full flex justify-center items-center">
-      <div class="border-2 border-orange-300 center flex-col">
+      <div class="center flex-col">
         <nav
           class="area text-white capitalize center py-4 border-b border-gray-400"
         >
@@ -32,7 +32,11 @@
         <div class="area my-36 small_src">
           <div class="">
             <div class="text-white sm:items-start mb-16 w-full max-w-xl">
-              <p class="uppercase text-gray-500 tracking-widest">new product</p>
+              <p
+                class="uppercase text-gray-500 text-center sm:text-left tracking-widest"
+              >
+                new product
+              </p>
               <h1
                 class="text-5xl uppercase font-bold py-6 text-center sm:text-left"
               >
@@ -42,7 +46,9 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
                 assumenda necessitatibus provident est, nihil eveniet!
               </p>
-              <div>
+              <div
+                class="flex justify-center items-center sm:items-start sm:justify-start"
+              >
                 <button class="btn bg-orange-400">see product</button>
               </div>
             </div>
@@ -113,7 +119,7 @@
       <div
         class="bg-orange-300 p-20 rounded-2xl grid grid-cols-gird-cards gap-12 area"
       >
-        <div class="w-96">
+        <div class="">
           <img
             src="./assets/R (1).png"
             alt=""
@@ -121,9 +127,8 @@
           />
         </div>
         <div class="text-white sm:items-start mb-16 w-full">
-          <p class="uppercase text-gray-500 tracking-widest">new product</p>
           <h1
-            class="text-5xl uppercase font-bold py-6 text-center sm:text-left"
+            class="text-3xl uppercase font-bold py-6 text-center sm:text-left"
           >
             xx99 mark ii headphones
           </h1>
@@ -131,14 +136,18 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
             assumenda necessitatibus provident est, nihil eveniet!
           </p>
-          <div><button class="btn bg-cyan-800">see product</button></div>
+          <div
+            class="flex justify-center items-center sm:items-start sm:justify-start"
+          >
+            <button class="btn bg-cyan-800">see product</button>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="my-8 flex justify-center items-center">
       <div
-        class="bg-gray-300 rounded-2xl py-4 px-24 flex justify-evenly items-center gap-12 area"
+        class="bg-gray-300 rounded-2xl py-4 px-24 grid grid-cols-gird-cards place-content-center gap-12 area"
       >
         <div class="text-white sm:items-start mb-16 w-full">
           <h1
@@ -147,7 +156,9 @@
             zx7 speaker
           </h1>
 
-          <div class="">
+          <div
+            class="flex justify-center items-center sm:items-start sm:justify-start"
+          >
             <button class="btn bg-gray-400 text-base">see product</button>
           </div>
         </div>
@@ -179,11 +190,11 @@
         <div
           class="bg-gray-700 p-10 rounded-2xl max-h-80 flex justify-center items-center"
         >
-          <div class="h-full object-cover">
+          <div class="h-full">
             <img
               src="./assets/jblboom.png"
               alt=""
-              class="h-full w-full max-w-xl object-cover"
+              class="h-full max-w-sm object-cover"
             />
           </div>
         </div>
@@ -217,7 +228,7 @@
       </div>
     </div>
     <div
-      class="bg-gray-800 flex justify-center place-content-center items-center flex-col"
+      class="bg-gray-800 py-14 flex justify-center place-content-center items-center flex-col"
     >
       <div class="w-full flex items-center justify-center">
         <nav class="area text-white capitalize center py-4">
@@ -230,10 +241,10 @@
           </ul>
         </nav>
       </div>
-      <div class="py-4 grid grid-cols-gird-cards gap-12 area">
-        <div
-          class="text-white border-2 border-blue-700 sm:items-start mb-16 w-full"
-        >
+      <div
+        class="py-4 grid grid-cols-gird-cards place-content-center gap-12 area"
+      >
+        <div class="text-white sm:items-start w-full">
           <p class="text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
             perferendis odio consectetur aut sit optio, dignissimos voluptates
@@ -242,8 +253,10 @@
             copyright <span>2022</span>. AllRights Resurved.
           </p>
         </div>
-        <nav class="relative border-2 border-blue-100">
-          <ul class="flex absolute right-0 top-1/2 -translate-y-2/4 gap-4">
+        <nav class="relative">
+          <ul
+            class="flex text-gray-300 text-3xl absolute right-0 top-1/2 -translate-y-2/4 gap-4"
+          >
             <li>
               <a href="#"><i class="fab fa-facebook"></i></a>
             </li>

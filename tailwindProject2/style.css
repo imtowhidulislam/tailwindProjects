@@ -1,0 +1,27 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.occupied-area {
+  @apply w-full max-w-7xl px-16;
+}
+.psaudu {
+  @apply before:empty-content before:w-14 before:h-1  before:absolute before:block pt-8 before:top-0;
+}
+.middle-item {
+  @apply flex items-center justify-between;
+}
+.middle-item-icon {
+  @apply flex items-start justify-between;
+}
+.middle-text {
+  @apply flex items-center justify-center flex-col;
+}
+.img-container {
+  @apply w-20 aspect-square rounded-full overflow-hidden border-2 border-gray-100 mt-4;
+}
+.img{
+  @apply w-full h-full block object-cover;
+}

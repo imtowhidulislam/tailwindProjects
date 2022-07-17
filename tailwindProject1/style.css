@@ -35,7 +35,18 @@
 .btn {
   @apply rounded-2xl uppercase border-none outline-none cursor-pointer py-2 px-6 mt-8;
 }
-
+.form-btn {
+  @apply w-full border-0 outline-none uppercase font-bold text-base cursor-pointer bg-cyan-400 hover:bg-cyan-500 rounded-2xl py-2 hover:transition-colors;
+}
+.middle {
+  @apply flex items-center;
+}
+.base {
+  @apply m-0 p-0 box-border flex items-center justify-center h-screen;
+}
+.form-container {
+  @apply w-full max-w-md m-0 bg-gray-300 p-8 rounded-lg;
+}
 /* !! Media Queries */
 .small_src {
   @apply sm:flex sm:justify-between sm:items-center sm:gap-8;

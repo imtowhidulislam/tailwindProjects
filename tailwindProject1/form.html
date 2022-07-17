@@ -12,51 +12,45 @@
       href="./assets/fontawesome/webfonts/fa-brands-400.woff2"
     />
   </head>
-  <body class="m-0 p-0 box-border flex items-center justify-center h-screen">
-    <div class="">
-      <div class="w-full max-w-md m-0 bg-gray-300 p-8 rounded-lg">
-        <div>
-          <div class="flex justify-center flex-col items-center">
-            <li class="list-none">
-              <i class="fa-solid fa-biohazard text-6xl text-cyan-400"></i>
-            </li>
-            <h2 class="text-3xl capitalize font-bold my-6">
-              create your account
-            </h2>
-            <p>
-              already registerd?
-              <span class="text-blue-500"><a href="#">Login...</a> </span>
-            </p>
-          </div>
-          <form action="" class="my-8">
-            <input type="email" placeholder="email address" class="" />
-            <input type="password" placeholder="password" class="" />
-            <input type="text" placeholder="company size" class="" />
-            <br />
-            <select name="skills" id="skills" class="">
-              <label for="Your skill">Your skill</label>
-              <option value="">--Please select--</option>
-              <option value="javascript">javascript</option>
-              <option value="css">css</option>
-              <option value="html">html</option>
-              <option value="react js">React Js</option>
-            </select>
-            <br />
-            <div class="flex items-center gap-2 mb-5">
-              <input type="checkbox" class="" />
-              <label for="term-and-privacy">
-                <a href="#" class="text-blue-600">Terms</a>
-                and
-                <a href="#" class="text-blue-600">Privacy Policy</a>
-              </label>
-            </div>
-            <button
-              class="w-full border-0 outline-none uppercase font-bold text-base cursor-pointer bg-cyan-400 hover:bg-cyan-500 rounded-2xl py-2 hover:transition-colors"
-            >
-              sign up
-            </button>
-          </form>
+  <body class="base">
+    <div class="form-container">
+      <div>
+        <div class="flex justify-center flex-col items-center">
+          <li class="list-none">
+            <i class="fa-solid fa-biohazard text-6xl text-cyan-400"></i>
+          </li>
+          <h2 class="text-3xl capitalize font-bold my-6">
+            create your account
+          </h2>
+          <p>
+            already registerd?
+            <span class="text-blue-500"><a href="#">Login...</a> </span>
+          </p>
         </div>
+        <form action="" class="my-8">
+          <input type="email" placeholder="email address" class="" />
+          <input type="password" placeholder="password" class="" />
+          <input type="text" placeholder="company size" class="" />
+          <br />
+          <select name="skills" id="skills" class="">
+            <label for="Your skill">Your skill</label>
+            <option value="">--Please select--</option>
+            <option value="javascript">javascript</option>
+            <option value="css">css</option>
+            <option value="html">html</option>
+            <option value="react js">React Js</option>
+          </select>
+          <br />
+          <div class="middle gap-2 mb-5">
+            <input type="checkbox" class="" />
+            <label for="term-and-privacy">
+              <a href="#" class="text-blue-600">Terms</a>
+              and
+              <a href="#" class="text-blue-600">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="form-btn">sign up</button>
+        </form>
       </div>
     </div>
   </body>

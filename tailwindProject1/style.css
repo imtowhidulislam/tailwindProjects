@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full rounded-lg border-blue-400 mb-4 focus:border-blue-600 placeholder:capitalize;
+  }
+  [type="radio"],
+  [type="checkbox"] {
+    @apply border-2 border-cyan-600 rounded text-cyan-400 focus:ring-cyan-500;
+  }
+}
+
 .area {
   @apply w-11/12 max-w-7xl;
 }
